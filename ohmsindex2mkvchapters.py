@@ -113,8 +113,8 @@ def get_language(ohmsIndex, args):
         langsSorted.primary = alt
         langsSorted.alt = primary
     else:
-        langsSorted.primary = alt
-        langsSorted.alt = primary
+        langsSorted.primary = primary
+        langsSorted.alt = alt
     for key,lang in langsSorted.items():
         try:
             l = languages.get(name = lang)
