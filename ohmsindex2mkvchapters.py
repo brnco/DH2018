@@ -178,7 +178,6 @@ def main():
     chapters, chapterElements = make_chapters(ohmsIndex, args)
     Chapters = make_mkv_chapter(chapters, chapterElements)
     success = write_mkv_chapters(Chapters, args)
-    input('foo')
 
 if __name__ == '__main__':
     main()
